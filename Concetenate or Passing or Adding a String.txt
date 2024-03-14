@@ -1,0 +1,17 @@
+Concetenate or Adding or Passing string one to another:
+
+string truncateSentence(string s, int k) {
+        int count=0;
+        string a;
+        for(char ch: s){
+            if(ch==' '){
+                count++;
+                if (count == k) {
+                    break;
+                }
+            }
+            a+=ch;// this is the line where we concetenate or add or pass the string;
+        }
+      
+        return a;
+    }
